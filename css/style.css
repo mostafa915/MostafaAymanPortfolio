@@ -88,7 +88,7 @@ header .links li {
 
 header .links li a {
   color: var(--text-secondary);
-  font-size: 17px;
+  font-size: 13px;
   transition: var(--main-trainstion);
 }
 header .links li a:hover,
@@ -98,7 +98,7 @@ header .links li a.active {
 header a.hire {
   background-color: var(--primary);
   color: var(--text-main);
-  padding: 15px 20px;
+  padding: 10px 15px;
   display: block;
   width: fit-content;
   transition: var(--main-trainstion);
@@ -252,11 +252,11 @@ header i.bar {
 .home .butn {
   background-color: var(--primary);
   color: var(--text-main);
-  padding: 15px 20px;
+  padding: 10px 15px;
   display: block;
   width: fit-content;
   transition: var(--main-trainstion);
-  font-size: 17px;
+  font-size: 13px;
   border-radius: 8px;
   display: block;
 }
@@ -349,7 +349,7 @@ header i.bar {
   line-height: 1.6;
   color: #b4b4bd;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .about .container {
     text-align: center;
   }
@@ -412,11 +412,12 @@ header i.bar {
 .services .srv h4 {
   text-align: center;
   color: var(--primary);
-  font-size: 22px;
+  font-size: 20px;
 }
 .services .srv p {
   text-align: center;
   line-height: 1.6;
+  font-size: 14px;
   margin: 10px auto 0;
 }
 @media (max-width: 767px) {
@@ -464,7 +465,7 @@ header i.bar {
 .projects .pro h4 {
   text-align: center;
   color: var(--primary);
-  font-size: 22px;
+  font-size: 20px;
   transition: var(--main-trainstion);
 }
 .projects .pro:hover h4 {
@@ -473,7 +474,7 @@ header i.bar {
 .projects .pro p {
   text-align: center;
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.6;
 
   margin: 10px auto 0;
