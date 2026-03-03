@@ -2,7 +2,9 @@ let barOfHead = document.querySelector("header .bar");
 let home = document.querySelector(".home");
 let about = document.querySelector(".about");
 let service = document.querySelector(".services");
-
+let project = document.querySelector(".projects");
+let skills = document.querySelector(".skills");
+let footer = document.querySelector("footer");
 barOfHead.addEventListener("click", function (e) {
   barOfHead.classList.toggle("click");
 });
@@ -15,6 +17,16 @@ about.addEventListener("click", (e) => {
 service.addEventListener("click", (e) => {
   barOfHead.classList.remove("click");
 });
+skills.addEventListener("click", (e) => {
+  barOfHead.classList.remove("click");
+});
+footer.addEventListener("click", (e) => {
+  barOfHead.classList.remove("click");
+});
+project.addEventListener("click", (e) => {
+  barOfHead.classList.remove("click");
+});
+
 
 let linksInHeaders = document.querySelectorAll("header .links li a");
 let linkHomeInHeader = document.querySelector("header .links li a.h");
@@ -35,3 +47,4 @@ linksInHeaders.forEach((el) => {
 });
 
 // document.body.addEventListener("mouseleave")
+
